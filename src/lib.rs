@@ -178,7 +178,7 @@ impl SecureLayer {
         self.conn.execute(r#"
             DELETE FROM sessions
             WHERE id=?1
-        "#, params![session_id]);
+        "#, params![session_id]).unwrap();
 
         return Ok(())
     }
