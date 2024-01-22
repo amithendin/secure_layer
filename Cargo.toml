@@ -2,6 +2,14 @@
 name = "secure_layer"
 version = "0.1.0"
 edition = "2021"
+authors = ["Amit Hendin"]
+license = "GPL-3.0"
+license-file = "LICENSE"
+readme = "README.md"
+repository = "https://github.com/amithendin/secure_layer.git"
+description = "A mechanism to secure server client communication"
+keywords = ["crypto", "security"]
+categories = ["cryptography"]
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
