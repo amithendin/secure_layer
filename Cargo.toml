@@ -1,0 +1,12 @@
+[package]
+name = "secure_layer"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+rusqlite = { version = "0.30.0", features = ["bundled"] }
+aes-gcm = "0.10.3"
+sha3 = "0.10.8"
+rand = "0.8.5"
